@@ -61,6 +61,7 @@ test-suite spec
       Data.String.Interpolate.UtilSpec
       Data.String.InterpolateSpec
       Paths_interpolate
+  build-tool-depends: hspec-discover:hspec-discover
   build-depends:
       QuickCheck
     , base ==4.*
